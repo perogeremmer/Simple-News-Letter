@@ -1,6 +1,6 @@
 function submitEmail() {
     let email = document.getElementById("email").value;
-    console.log(email.length)
+
     if (email.length < 1) {
         return;
     }
