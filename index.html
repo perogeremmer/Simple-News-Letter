@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Newsletter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/extra.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <div class="card-newsletter">
+                <div class="row">
+                    <div class="col-12 card-header">
+                        <h1 class="card-title">The closest thing you'll ever to someone emailing you money.</h1>
+                    </div>
+                    <div id="text-welcome" class="col-12 card-body">
+                        <p class="card-subtitle">Get weekly emails containing all my branding and design secrets to help you 3x your sales. </p>
+                    </div>
+                    <div id="text-finished" class="col-12 card-body" style="display:none;">
+                        <p class="success-message"></p>
+                    </div>
+                    <div class="col-12 card-body">
+                        <div class="row">
+                            <form id="form-email" action="index.html">
+                                <div class="col-7">
+                                    <input id="email" class="email-input" type="email" placeholder="Your email address...." required>
+                                </div>
+                                <div class="col-5">
+                                    <button id="btn-submit" class="button-submit" type="submit" onclick="submitEmail()">
+                                        <strong>Push. Don't Pull.</strong>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-footer">Zero spam. Unsubscribe at any time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
